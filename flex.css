@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    
+    flex-direction: column; 
+}
+p{
+    padding: 10px;
+    margin: 10px;
+}
+.para1{
+    background-color: blueviolet;
+    flex: 1;
+    order: 3;
+}
+.para2{
+    background-color: cadetblue;
+    flex: 2;
+    order: 2;
+}
+.para3{
+    background-color: rgb(61, 204, 4);
+    flex: 3;
+    order: 1;
+}
+.container2{
+    background-color: chocolate;
+    height: 400px;
+    display: flex;
+     justify-content: space-around;  
+    /* flex-direction: column ; */
+     /* align-items: center;  */
+     flex-wrap: wrap;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid rgb(17, 17, 17);
+}
+.box1{
+    align-self: flex-end;
+}
